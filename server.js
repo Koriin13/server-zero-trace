@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Allow for CORS from http://localhost:3000 GET and POST methods
 const io = new Server(server, {
     cors: {
-      origin: 'https://server-zero-trace.onrender.com',
+      origin: 'https://client-zero-trace.onrender.com',
       methods: ['GET', 'POST'],
     },
 });
